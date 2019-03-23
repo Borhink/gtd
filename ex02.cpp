@@ -64,6 +64,8 @@ int getBestDay()
 
 int main()
 {
+    srand(time(NULL));
+
     //Création d'un journal fictif pour les tests
 
     //Récupération du meilleur jour selon les résultats générés :
