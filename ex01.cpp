@@ -52,3 +52,10 @@ int main()
     for (int i = 0; i < tests.size(); i++)
         std::cout << "Apply transform on '" << tests[i] << "' -> '" << transformWord(tests[i]) << "'" << std::endl;
 }
+
+/*
+** Pour les test, il faut essayer avec :
+**  -les différents cas particuliers
+**  -les cas de référence
+**  -des cas un peu plus aléatoires
+*/
