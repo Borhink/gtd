@@ -8,7 +8,7 @@
 //Simulation hasNextCount
 bool hasNextCount()
 {
-    return rand() % 365 == 0;
+    return rand() % 365 != 0;
 }
 
 //Simulation getNextCount
